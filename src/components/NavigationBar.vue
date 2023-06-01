@@ -9,7 +9,7 @@
       @select="handleSelect"
     >
       <el-menu-item index="0" route="/">
-        <el-text class="mx-l" size="large">Hagrid's Hole</el-text>
+        <el-text class="mx-l" size="large">💀 Hagrid's Hole 💀</el-text>
       </el-menu-item>
       <div class="flex-grow" />
       <el-menu-item index="1" route="/tts">Text-to-Speech</el-menu-item>

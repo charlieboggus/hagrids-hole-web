@@ -10,11 +10,16 @@
       </el-col>
       <el-col :span="4">
         <el-button
+          type="danger"
           @click="clearOutput"
           :disabled="shouldDisableClear()"
           style="float: right"
-          >Clear</el-button
         >
+          <el-icon style="vertical-align: middle">
+            <Close />
+          </el-icon>
+          <span style="vertical-align: middle">Clear</span>
+        </el-button>
       </el-col>
     </el-row>
     <br />

@@ -6,11 +6,12 @@
         <h2 style="text-align: center">Hagrid's Statistics</h2>
       </el-col>
     </el-row>
+    <br />
     <!-- Page content -->
-    <el-row>
-      <el-text style="text-align: center">Under construction</el-text>
-    </el-row>
+    <el-row :gutter="16"><stats-card /></el-row>
   </div>
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import StatsCard from '@/components/StatsCard.vue'
+</script>

@@ -3,7 +3,7 @@
     <!-- Page title -->
     <el-row>
       <el-col :span="24">
-        <h2 style="text-align: center">About</h2>
+        <h2 style="text-align: center">About Hagrid</h2>
       </el-col>
     </el-row>
     <!-- Page content -->
