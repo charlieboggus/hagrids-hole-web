@@ -26,8 +26,8 @@
     <!-- Output table -->
     <el-row>
       <el-col :span="24">
-        <el-table :data="tableData" style="width: 100%" max-height="500">
-          <el-table-column prop="data" label="Output" />
+        <el-table :data="tableData" style="width: 100%; height: 100%">
+          <el-table-column prop="data" label="History" />
         </el-table>
       </el-col>
     </el-row>
@@ -39,13 +39,15 @@ import { Ref, ref } from 'vue'
 import { MarkovTableData } from '../model/markov-table-data'
 
 let tableData: Ref<MarkovTableData[]> = ref([])
+let i = 0
 
 const generate = () => {
   // TODO: here's where the call to the Lambda function will be made...
   // we'll populate the table with whatever the Lambda returns
   const tableItem: MarkovTableData = new MarkovTableData()
-  tableItem.data = 'Item'
-  tableData.value.push(tableItem)
+  tableItem.data = `Item${i}`
+  i++
+  tableData.value.unshift(tableItem)
 }
 
 const clearOutput = () => {
