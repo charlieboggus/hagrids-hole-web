@@ -1,5 +1,5 @@
 <template>
-  <div class="NavigationBar">
+  <div class="navigationBar">
     <el-menu
       :default-active="activeTab"
       :ellipsis="false"
@@ -30,7 +30,11 @@ const handleSelect = (key: string, keyPath: string[]) => {
 }
 </script>
 
-<style>
+<style scoped>
+.navigationBar {
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
