@@ -1,6 +1,15 @@
 <template>
   <div class="home">
-    <p>Hagrid's Hole</p>
+    <!-- Page title -->
+    <el-row>
+      <el-col :span="24">
+        <h2 style="text-align: center">Hagrid's Hole</h2>
+      </el-col>
+    </el-row>
+    <!-- Page content -->
+    <el-row>
+      <el-text style="text-align: center">Under construction</el-text>
+    </el-row>
   </div>
 </template>
 

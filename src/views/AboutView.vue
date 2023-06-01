@@ -1,6 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <!-- Page title -->
+    <el-row>
+      <el-col :span="24">
+        <h2 style="text-align: center">About</h2>
+      </el-col>
+    </el-row>
+    <!-- Page content -->
+    <el-row>
+      <el-text style="text-align: center">Under construction</el-text>
+    </el-row>
   </div>
 </template>
 
