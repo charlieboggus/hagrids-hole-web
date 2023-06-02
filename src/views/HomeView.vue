@@ -58,6 +58,7 @@
   overflow: hidden;
   height: 150px;
   width: 150px;
+  filter: drop-shadow(0 0 0.75rem rgb(179, 179, 179));
 }
 
 .links {
