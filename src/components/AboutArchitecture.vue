@@ -24,7 +24,7 @@
         <el-carousel height="150px">
           <el-carousel-item class="center">
             <a href="https://vuejs.org/">
-              <img src="@/assets/images/vue-logo.png" class="dependencyLogo" />
+              <img src="@/assets/images/vue.png" class="dependencyLogo" />
             </a>
           </el-carousel-item>
           <!---->
