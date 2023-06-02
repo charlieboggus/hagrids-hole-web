@@ -2,7 +2,7 @@
   <div class="app">
     <el-container>
       <navigation-bar />
-      <el-main class="contentWrapper">
+      <el-main class="content">
         <router-view />
       </el-main>
       <el-footer class="pageFooter">
@@ -45,7 +45,7 @@ body {
   font-family: 'Mona Sans';
 }
 
-.contentWrapper {
+.content {
   margin: 0;
   min-height: calc(100vh - 142px);
   display: flex;

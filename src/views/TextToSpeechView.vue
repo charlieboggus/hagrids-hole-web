@@ -6,6 +6,7 @@
         <h2 style="text-align: center">Hagrid's Voice</h2>
       </el-col>
     </el-row>
+    <br />
     <!-- Page content -->
     <el-row>
       <el-text style="text-align: center">Under construction</el-text>

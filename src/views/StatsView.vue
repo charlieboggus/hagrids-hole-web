@@ -8,10 +8,10 @@
     </el-row>
     <br />
     <!-- Page content -->
-    <el-row :gutter="16"><stats-card /></el-row>
+    <el-row>
+      <el-text style="text-align: center">Under construction</el-text>
+    </el-row>
   </div>
 </template>
 
-<script lang="ts" setup>
-import StatsCard from '@/components/StatsCard.vue'
-</script>
+<script lang="ts" setup></script>
