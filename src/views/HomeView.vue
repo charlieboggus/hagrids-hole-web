@@ -6,7 +6,12 @@
     </div>
     <br />
     <h1 style="text-align: center">Hagrid's Hole</h1>
-    <br />
+    <!-- tagline -->
+    <el-row>
+      <el-col class="tagline">
+        <el-text class="taglineStyle">always listening...</el-text>
+      </el-col>
+    </el-row>
     <!-- links -->
     <el-row>
       <el-col class="links">
@@ -66,5 +71,17 @@
   justify-content: center;
   align-items: center;
   font-weight: lighter;
+}
+
+.tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.taglineStyle {
+  font-weight: lighter;
+  color: lightgray;
 }
 </style>

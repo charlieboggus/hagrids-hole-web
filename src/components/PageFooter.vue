@@ -1,7 +1,7 @@
 <template>
   <div class="pageFooter">
     <el-divider />
-    <el-row :gutter="15">
+    <el-row>
       <el-col :span="8">
         <el-link href="https://github.com/charlieboggus" target="_blank"
           >Github</el-link
@@ -30,7 +30,7 @@ const cowboyClick = async () => {
     .put('/api/cowboy', { token: env.COWBOY_TOKEN })
     .then(() => {
       ElNotification({
-        message: 'yeehaw',
+        message: 'Howdy Partner! 🤠',
         type: 'success',
       })
     })
