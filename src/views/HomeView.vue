@@ -2,7 +2,11 @@
   <div class="spacer" style="margin-top: 15%" />
   <div class="home">
     <div class="centerImage">
-      <img style="height: 100%" class="logo" src="~@/assets/hagrid.png" />
+      <img
+        style="height: 100%"
+        class="logo"
+        src="~@/assets/images/hagrid.png"
+      />
     </div>
     <br />
     <h1 style="text-align: center">Hagrid's Hole</h1>
