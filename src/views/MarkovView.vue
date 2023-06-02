@@ -42,6 +42,7 @@
 import { Ref, ref } from 'vue'
 import env from '@/env'
 import axios from '@/clients/axios'
+import { ElNotification } from 'element-plus'
 
 type TableData = {
   data: string
@@ -53,10 +54,20 @@ const tableData: Ref<TableData[]> = ref([])
 const generate = async () => {
   loading.value = true
   const client = axios.create({ baseUrl: env.API_GATEWAY_URL })
-  await client.get('/api/markov').then((res) => {
-    tableData.value.unshift({ data: res.data })
-    loading.value = false
-  })
+  await client
+    .get('/api/markov')
+    .then((res) => {
+      tableData.value.unshift({ data: res.data })
+      loading.value = false
+    })
+    .catch((err) => {
+      console.log(err)
+      ElNotification({
+        title: 'Error',
+        message: 'There was an unexpected error when generating',
+        type: 'error',
+      })
+    })
 }
 
 const clearOutput = () => {
