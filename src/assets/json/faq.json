@@ -4,15 +4,19 @@
         "answer": "Long story... Don't ask. It's not what you think, though..."
     },
     {
-        "question": "What's with the cowboy",
-        "answer": "Hehe cowboy. Try giving him a click :)"
+        "question": "Is all of the source code for this project public",
+        "answer": "For the most part, yes. I have a few private lambda functions operating under the hood for backend purposes, but the important functionality is all public."
     },
     {
         "question": "Why is all of this software open sourced",
         "answer": "I think it's a super interesting, albeit niche, use case that other people could have a lot of fun with. As to why I've open sourced the Lambdas I use as well as the website... Your guess is as best as mine. I just like FOSS."
     },
     {
+        "question": "What's with the cowboy",
+        "answer": "Hehe cowboy. Try giving him a click :)"
+    },
+    {
         "question": "I have a question about something... How can I contact you",
-        "answer": "Feel free to submit an issue on one of my Github repos. You can find links on the homepage or a link to my profile in the global footer :)"
+        "answer": "Feel free to submit an issue on one of my Github repos. You can find links on the homepage or a link to my profile in the global footer"
     }
 ]
