@@ -1,3 +1,3 @@
 # hagrids-hole-web
 
-In progress...
+Source code for [Hagrid's Hole Web](http://hagridshole.com)
