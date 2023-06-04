@@ -6,6 +6,8 @@
       </el-statistic>
     </div>
   </el-col>
+  <!-- messages sent per user, time spent in voice per user -->
+  <!-- most common words used by user? maybe, but that would take a lot of compute -->
 </template>
 
 <style scoped>

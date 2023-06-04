@@ -52,6 +52,8 @@
               markovify
             </el-link>
           </el-carousel-item>
+          <!---->
+          <!-- TODO: Add other dependencies to the carousel if they come up -->
         </el-carousel>
       </div>
     </el-col>
