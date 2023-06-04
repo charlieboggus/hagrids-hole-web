@@ -3,7 +3,9 @@
     <el-container>
       <navigation-bar />
       <el-main class="content">
-        <router-view />
+        <Suspense>
+          <router-view />
+        </Suspense>
       </el-main>
       <el-footer class="pageFooter">
         <page-footer />
