@@ -11,7 +11,7 @@
         <el-text class="mx-l" size="large">Hagrid's Hole</el-text>
       </el-menu-item>
       <div class="flex-grow" />
-      <el-menu-item index="1" route="/tts">Text-to-Speech</el-menu-item>
+      <el-menu-item index="1" route="/tts"> Text-to-Speech </el-menu-item>
       <el-menu-item index="2" route="/markov">
         Markov Text Generator
       </el-menu-item>

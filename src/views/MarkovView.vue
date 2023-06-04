@@ -47,7 +47,6 @@ import { ElNotification } from 'element-plus'
 type TableData = {
   data: string
 }
-
 const loading = ref(false)
 const tableData: Ref<TableData[]> = ref([])
 
@@ -67,6 +66,7 @@ const generate = async () => {
         message: 'There was an unexpected error when generating',
         type: 'error',
       })
+      loading.value = false
     })
 }
 

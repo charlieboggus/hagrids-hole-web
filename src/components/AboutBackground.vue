@@ -1,5 +1,7 @@
 <template>
-  <el-text>Under construction...</el-text>
+  <under-construction />
 </template>
 
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import UnderConstruction from './UnderConstruction.vue'
+</script>
